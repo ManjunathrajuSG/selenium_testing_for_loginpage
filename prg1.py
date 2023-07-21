@@ -9,8 +9,8 @@ driver=webdriver.Chrome(service=serv_obj)
 
 
 driver.get("https://bmsitm.gnums.in/Login.aspx")
-driver.find_element(By.NAME,"txtUsername").send_keys("7676719005")
-driver.find_element(By.NAME,"txtPassword").send_keys("SGMD@1234")
+driver.find_element(By.NAME,"txtUsername").send_keys("76******58")
+driver.find_element(By.NAME,"txtPassword").send_keys("S******34")
 driver.find_element(By.ID,"btnLogin").click()
 
 act_title=driver.title
